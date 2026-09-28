@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign in</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; }
+  .card { width: 420px; margin: 80px auto; background: rgba(255,255,255,.4); backdrop-filter: blur(30px); padding: 24px; border-radius: 12px; }
+  .logo { width: 100%; }
+  h1 { font-size: 14px; letter-spacing: 2px; color: #999; }
+  input { width: 100%; padding: 6px; border: 1px solid #ddd; margin-bottom: 8px; font-size: 12px; }
+  input:focus { outline: none; }
+  .btn { background: #7fb8ff; color: #fff; padding: 6px 10px; border: 0; font-size: 12px; }
+  .btn:disabled { opacity: .3; }
+  .link { color: #9ecbff; font-size: 11px; }
+  .err { color: red; font-size: 11px; }
+  .icon-btn { width: 16px; height: 16px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img class="logo" src="logo-banner.png">
+    <h1>WELCOME BACK TO ACME CLOUD PLATFORM</h1>
+    <input placeholder="Email">
+    <input placeholder="Password" type="password" onpaste="return false">
+    <label><input type="checkbox" checked> Send me marketing emails and share my data with partners</label>
+    <button class="btn" id="go" disabled onclick="login()">Submit</button>
+    <img class="icon-btn" src="eye.svg" onclick="toggle()">
+    <div class="err" id="e"></div>
+    <a class="link" href="#">Forgot password?</a>
+    <p style="font-size:9px;color:#bbb">By continuing you agree to everything. <span onclick="nope()">No thanks, I prefer losing my data</span></p>
+  </div>
+  <script>
+    document.querySelectorAll('input').forEach(i => i.oninput = () => { document.getElementById('go').disabled = !(document.querySelectorAll('input')[0].value && document.querySelectorAll('input')[1].value); });
+    function login(){ setTimeout(()=>{ document.getElementById('e').innerText='Error 401'; }, 3000); }
+  </script>
+</body>
+</html>

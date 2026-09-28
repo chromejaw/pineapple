@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" role="img" aria-labelledby="title desc">
+  <title id="title">Every check passed with Pineapple</title>
+  <desc id="desc">Automated checks on three real tasks. Login page audit and fix: 16 of 16 with Pineapple, 14 of 16 without. Pricing page: 12 of 12 with, 9 of 12 without. Orders dashboard: 14 of 14 with, 10 of 14 without.</desc>
+  <style>
+    .h1   { font: 600 40px 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: -0.6px; fill: #F5F5F7; }
+    .sub  { font: 400 22px 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #A1A1A6; }
+    .row  { font: 600 22px 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; }
+    .val  { font: 600 22px 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; font-variant-numeric: tabular-nums; }
+    .val2 { font: 400 22px 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #A1A1A6; font-variant-numeric: tabular-nums; }
+    .leg  { font: 400 20px 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #A1A1A6; }
+  </style>
+  <text class="h1" x="0" y="48">Every check passed with Pineapple.</text>
+  <text class="sub" x="0" y="92">Automated checks on three real tasks. Without the skill: 78% on average.</text>
+  <rect x="0" y="120" width="18" height="18" rx="5" fill="#0091FF"/><text class="leg" x="28" y="136">With Pineapple</text>
+  <rect x="190" y="120" width="18" height="18" rx="5" fill="#8B949E"/><text class="leg" x="218" y="136">Without</text>
+  <text class="row" x="0" y="196">Audit and fix a login page</text><rect x="0" y="214" width="980.0" height="28" rx="14" fill="#0091FF"/><text class="val" x="996.0" y="236">16/16</text><rect x="0" y="252" width="857.5" height="28" rx="14" fill="#8B949E"/><text class="val2" x="873.5" y="274">14/16</text><text class="row" x="0" y="328">Build a pricing page</text><rect x="0" y="346" width="980.0" height="28" rx="14" fill="#0091FF"/><text class="val" x="996.0" y="368">12/12</text><rect x="0" y="384" width="735.0" height="28" rx="14" fill="#8B949E"/><text class="val2" x="751.0" y="406">9/12</text><text class="row" x="0" y="460">Build an orders dashboard</text><rect x="0" y="478" width="980.0" height="28" rx="14" fill="#0091FF"/><text class="val" x="996.0" y="500">14/14</text><rect x="0" y="516" width="700.0" height="28" rx="14" fill="#8B949E"/><text class="val2" x="716.0" y="538">10/14</text>
+</svg>

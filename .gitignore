@@ -1,0 +1,5 @@
+.DS_Store
+
+# Local only: agent mirror with a machine-specific symlink, and third-party source material
+.agents/
+new stuff to add/

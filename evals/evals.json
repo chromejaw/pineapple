@@ -1,0 +1,139 @@
+{
+  "skill_name": "pineapple",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "can you review my login page and tell me what's wrong with it design/ux wise? file is evals/files/login.html. give me a prioritized list of fixes and then a fixed version of the file",
+      "expected_output": "Prioritized audit covering labels vs placeholders, contrast, target sizes, focus outline removal, disabled submit, vague errors/no loading state, pre-checked consent (dark pattern), confirmshaming, paste blocking, glass over plain background, missing alt text; plus a fixed HTML file.",
+      "files": [
+        "evals/files/login.html"
+      ],
+      "assertions": [
+        "Review flags placeholders used instead of visible labels",
+        "Review flags the pre-checked marketing/data-sharing consent as manipulative",
+        "Review flags the confirmshaming 'No thanks' copy",
+        "Review flags removed focus outline",
+        "Review flags blocked paste in the password field",
+        "Review flags the vague 'Error 401' / slow feedback",
+        "Review flags the disabled submit button pattern",
+        "Review flags low contrast",
+        "Fixed page: every text input has a <label for> or the fields use aria-label",
+        "Fixed page: consent checkbox is not pre-checked",
+        "Fixed page: paste is not blocked",
+        "Fixed page: email and password use autocomplete tokens",
+        "Fixed page: submit button is not disabled by default",
+        "Fixed page: provides a visible focus style (:focus-visible or outline)",
+        "Fixed page: controls sized to at least 44px",
+        "Fixed page: button label is a specific verb, not 'Submit'"
+      ],
+      "craft_assertions": [
+        "Craft: themes browser details (at least 2 of color-scheme, accent-color, caret-color, ::selection)",
+        "Craft: no gradient text (background-clip: text)",
+        "Craft: no decorative glow (radial-gradient backgrounds or colored box-shadows)",
+        "Craft: no `transition: all`",
+        "Craft: no emoji used as icons",
+        "Craft: hover styles gated to hover-capable pointers (@media (hover: hover))",
+        "Craft: reduced-motion path doesn't freeze animations (no global iteration-count: 1 kill)",
+        "Craft: nothing animates from scale(0)",
+        "Craft: no purple/indigo-to-blue decorative gradients"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I'm launching a note-taking SaaS called Inkwell. Build me a pricing / upgrade page as a single HTML file: Free, Pro ($8/mo or $80/yr) and Team ($15/user/mo). There's a 14-day free trial on Pro. Make it feel premium, like something Apple would ship.",
+      "expected_output": "Single HTML pricing page with clear comparable tiers, total price and billing period shown, trial terms explained (length, price after, how to cancel), honest toggle, accessible, responsive, dark mode, reduced motion, one primary action per card.",
+      "files": [],
+      "assertions": [
+        "Page supports dark mode (prefers-color-scheme)",
+        "Page respects prefers-reduced-motion",
+        "Page has a responsive viewport meta tag",
+        "Yearly Pro price shows the $80 total per year",
+        "Team price states it is per user",
+        "Trial terms state what happens after 14 days (price or billing start)",
+        "Trial terms explain how or that people can cancel",
+        "Billing toggle exposes its state accessibly (radio / aria-checked / aria-pressed)",
+        "Has a visible keyboard focus style",
+        "No fake urgency or scarcity (countdowns, 'only N left', 'hurry')",
+        "Uses CSS custom properties for colors (token-based)",
+        "Buttons/controls sized to at least 44px"
+      ],
+      "craft_assertions": [
+        "Craft: themes browser details (at least 2 of color-scheme, accent-color, caret-color, ::selection)",
+        "Craft: no gradient text (background-clip: text)",
+        "Craft: no decorative glow (radial-gradient backgrounds or colored box-shadows)",
+        "Craft: no `transition: all`",
+        "Craft: no emoji used as icons",
+        "Craft: hover styles gated to hover-capable pointers (@media (hover: hover))",
+        "Craft: reduced-motion path doesn't freeze animations (no global iteration-count: 1 kill)",
+        "Craft: nothing animates from scale(0)",
+        "Craft: no purple/indigo-to-blue decorative gradients"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "build an orders dashboard for our shop's internal admin (single html file, fake data is fine): KPIs at top (revenue, orders, refund rate), a chart of last 14 days, and an orders table people can sort, filter by status and bulk-select to mark as shipped.",
+      "expected_output": "Single HTML dashboard with KPI cards (units, deltas with baselines), labeled chart, data table with sticky header, right-aligned tabular numbers, sortable columns, status filter, bulk selection with count and action bar, keyboard support, accessible status (not color only), solid chrome, data freshness.",
+      "files": [],
+      "assertions": [
+        "Numbers use tabular figures",
+        "Table header is sticky",
+        "Sortable headers expose sort state (aria-sort)",
+        "Bulk selection has a select-all control",
+        "Selected count is shown for bulk actions",
+        "Status filter control exists",
+        "KPI deltas state a comparison baseline ('vs \u2026')",
+        "Data freshness is shown ('Updated \u2026' / 'as of')",
+        "Chart has an accessible text alternative",
+        "Bulk action result is announced (aria-live / role=status) or undoable",
+        "Numbers right-aligned in table",
+        "Supports dark mode",
+        "Has a visible keyboard focus style",
+        "Solid chrome \u2014 no backdrop blur over data"
+      ],
+      "craft_assertions": [
+        "Craft: themes browser details (at least 2 of color-scheme, accent-color, caret-color, ::selection)",
+        "Craft: no gradient text (background-clip: text)",
+        "Craft: no decorative glow (radial-gradient backgrounds or colored box-shadows)",
+        "Craft: no `transition: all`",
+        "Craft: no emoji used as icons",
+        "Craft: hover styles gated to hover-capable pointers (@media (hover: hover))",
+        "Craft: reduced-motion path doesn't freeze animations (no global iteration-count: 1 kill)",
+        "Craft: nothing animates from scale(0)",
+        "Craft: no purple/indigo-to-blue decorative gradients"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "I'm building a notes web app. Make me a single HTML file with the Settings screen (appearance: light/dark/system, text size, a sync toggle, and a 'Delete all notes' action) plus a Cmd+K / Ctrl+K command palette that can jump to any setting or run actions like 'New note' and 'Toggle sidebar'. Deleting should be undoable. Save it as settings.html and add a short notes.md explaining your motion and interaction decisions.",
+      "expected_output": "Settings screen with native-feeling controls (switch semantics, themed accent), command palette that opens instantly (no entrance animation), full keyboard model (arrows, Enter, Esc, focus return), undo toast that pauses on hover/focus/hidden tab and is announced, destructive action stated clearly, tooltips on hover and focus, long names handled, themed browser details, dark mode, reduced motion.",
+      "files": [],
+      "assertions": [
+        "Palette opens with Cmd/Ctrl+K (metaKey/ctrlKey + k)",
+        "Palette supports ArrowUp/ArrowDown, Enter, and Escape",
+        "Palette exposes the active option (aria-activedescendant or roving focus with aria-selected)",
+        "Palette open/close is not animated (no transition/animation on the palette container)",
+        "Focus returns to the previously focused element when the palette closes",
+        "Undo is offered for deleting notes",
+        "Undo/confirmation message is announced (aria-live or role=status)",
+        "Toast auto-dismiss pauses on hover/focus or when the tab is hidden",
+        "Sync toggle uses switch semantics (role=switch or checkbox)",
+        "Destructive action is styled/labelled as destructive and states the consequence",
+        "Supports dark mode (prefers-color-scheme) and a manual light/dark/system choice",
+        "Respects prefers-reduced-motion",
+        "Has a visible keyboard focus style (:focus-visible)",
+        "Long names are handled (text-overflow: ellipsis or wrapping rules)"
+      ],
+      "craft_assertions": [
+        "Craft: themes browser details (at least 2 of color-scheme, accent-color, caret-color, ::selection)",
+        "Craft: no gradient text (background-clip: text)",
+        "Craft: no decorative glow (radial-gradient backgrounds or colored box-shadows)",
+        "Craft: no `transition: all`",
+        "Craft: no emoji used as icons",
+        "Craft: hover styles gated to hover-capable pointers (@media (hover: hover))",
+        "Craft: reduced-motion path doesn't freeze animations (no global iteration-count: 1 kill)",
+        "Craft: nothing animates from scale(0)",
+        "Craft: no purple/indigo-to-blue decorative gradients"
+      ]
+    }
+  ]
+}

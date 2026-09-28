@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780" role="img" aria-labelledby="title desc">
+  <title id="title">The default AI look, and the other way</title>
+  <desc id="desc">Two pricing cards for the same plan. Left: the default AI look, with a purple glow, gradient border and gradient text, an icon tile, emoji checkmarks, “Get Started” and vague trial terms. Right: with Pineapple, one blue action color, the price per month and per year, the trial terms stated plainly, a neutral shadow and a specific button: Start free trial.</desc>
+  <defs>
+    <linearGradient id="gb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C084FC"/><stop offset="0.55" stop-color="#818CF8"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <linearGradient id="gtile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="46"/></filter>
+    <filter id="btnglow" x="-30%" y="-80%" width="160%" height="300%"><feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#8B5CF6" flood-opacity="0.75"/></filter>
+    <filter id="cs" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.06"/><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.09"/></filter>
+  </defs>
+  <style>
+    .lab { font: 600 23px 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #6E6E73; }
+    .cap { font: 400 20px 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #6E6E73; }
+    .ai  { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .pp  { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  </style>
+  <rect width="1200" height="780" rx="36" fill="#F5F5F7"/>
+  <text class="lab" x="320.0" y="72" text-anchor="middle">The default AI look</text>
+  <text class="lab" x="880.0" y="72" text-anchor="middle">With Pineapple</text>
+
+  <!-- The default AI look -->
+  <ellipse cx="320.0" cy="402" rx="200" ry="250" fill="#7C3AED" opacity="0.42" filter="url(#glow)"/>
+  <rect x="130" y="112" width="380" height="560" rx="30" fill="#120E24" stroke="url(#gb)" stroke-width="2"/>
+  <g class="ai">
+    <text x="166" y="164" font-size="15" font-weight="700" letter-spacing="2.6" fill="#C4B5FD">✦ MOST POPULAR</text>
+    <rect x="166" y="186" width="60" height="60" rx="16" fill="url(#gtile)"/>
+    <path d="M200,198 l-14,22 h11 l-4,16 l15,-23 h-11 z" fill="#FFFFFF"/>
+    <text x="166" y="308" font-size="46" font-weight="800" fill="url(#gt)">Pro Plan</text>
+    <text x="166" y="380" font-size="64" font-weight="800" fill="#FFFFFF">$8<tspan font-size="24" font-weight="500" fill="#8B8FA3" dx="4">/mo</tspan></text>
+    <text x="166" y="418" font-size="19" fill="#8B8FA3">Perfect for power users 🚀</text>
+    <text x="166" y="472" font-size="19" fill="#E5E7EB">✅  Unlimited notes</text>
+    <text x="166" y="510" font-size="19" fill="#E5E7EB">✅  Sync across devices</text>
+    <text x="166" y="548" font-size="19" fill="#E5E7EB">✅  Version history</text>
+    <rect x="166" y="578" width="308" height="54" rx="27" fill="url(#gtile)" filter="url(#btnglow)"/>
+    <text x="320.0" y="612" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Get Started →</text>
+    <text x="320.0" y="657" font-size="14" fill="#5E6177" text-anchor="middle">Try it free for 14 days!*</text>
+  </g>
+
+  <!-- With Pineapple -->
+  <rect x="690" y="112" width="380" height="560" rx="30" fill="#FFFFFF" filter="url(#cs)"/>
+  <g class="pp">
+    <text x="730" y="178" font-size="30" font-weight="600" fill="#1D1D1F">Pro</text>
+    <text x="730" y="270" font-size="76" font-weight="600" letter-spacing="-1.6" fill="#1D1D1F">$8<tspan font-size="22" font-weight="400" letter-spacing="0" fill="#6E6E73" dx="8">/ month</tspan></text>
+    <text x="730" y="308" font-size="19" fill="#6E6E73">or $80 a year, save 17%</text>
+    <path d="M730,369 l7,7 l14,-16" fill="none" stroke="#0088FF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><text x="766" y="376" font-size="20" fill="#1D1D1F">Unlimited notes</text>
+    <path d="M730,411 l7,7 l14,-16" fill="none" stroke="#0088FF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><text x="766" y="418" font-size="20" fill="#1D1D1F">Sync across devices</text>
+    <path d="M730,453 l7,7 l14,-16" fill="none" stroke="#0088FF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><text x="766" y="460" font-size="20" fill="#1D1D1F">Version history</text>
+    <rect x="730" y="516" width="300" height="56" rx="28" fill="#1E6EF4"/>
+    <text x="880.0" y="551" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Start free trial</text>
+    <text x="880.0" y="612" font-size="17" fill="#6E6E73" text-anchor="middle">Free for 14 days, then $8/month.</text>
+    <text x="880.0" y="638" font-size="17" fill="#6E6E73" text-anchor="middle">Cancel anytime in Settings.</text>
+  </g>
+
+  <text class="cap" x="320.0" y="736" text-anchor="middle">Gradient text · glow · icon tile · emoji</text>
+  <text class="cap" x="880.0" y="736" text-anchor="middle">One tint · honest terms · neutral depth</text>
+</svg>

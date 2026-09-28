@@ -216,5 +216,6 @@ It’s Apple, with a little extra: the web, Android, and everything else.
 <p align="center"><sub>
   Designed with Pineapple.<br>
   Built on Apple’s Human Interface Guidelines and WWDC design sessions. Craft ideas adapted from <a href="https://github.com/pbakaus/impeccable">Impeccable</a> and <a href="https://emilkowal.ski">Emil Kowalski</a>’s writing on design engineering.<br>
+  Released under the <a href="LICENSE">MIT License</a>. Apple material quoted in <code>references/</code> remains Apple’s (see <a href="NOTICE">NOTICE</a>).<br>
   Pineapple is not affiliated with Apple Inc. Apple is a trademark of Apple Inc., registered in the U.S. and other countries.
 </sub></p>

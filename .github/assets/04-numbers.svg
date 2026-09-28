@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">44 points to tap. 4.5 to 1 to read. 0 milliseconds to wait.</title>
+  <desc id="d">Three numbers from the skill: 44-point touch targets, 4.5 to 1 text contrast, and 0 milliseconds of animation on actions people repeat all day.</desc>
+  <style>
+    .hd { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; }
+    .tx { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .g  { fill: #86868B; }
+    .in { animation: in 900ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    @keyframes in { from { opacity: 0; transform: translateY(16px); } }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="675" rx="28" fill="#000"/>
+  <text class="hd in" x="600" y="200" text-anchor="middle" font-size="34" style="fill:#86868B">Every value has a reason.</text>
+  <g class="in" style="animation-delay:250ms"><text class="hd" x="230" y="408" text-anchor="middle" font-size="128" font-weight="600" letter-spacing="-3">44<tspan font-size="46" letter-spacing="0" dx="6">pt</tspan></text>
+    <text class="hd" x="230" y="476" text-anchor="middle" font-size="36" style="fill:#86868B">to tap.</text></g>
+  <g class="in" style="animation-delay:430ms"><text class="hd" x="600" y="408" text-anchor="middle" font-size="128" font-weight="600" letter-spacing="-3">4.5:1<tspan font-size="46" letter-spacing="0" dx="6"></tspan></text>
+    <text class="hd" x="600" y="476" text-anchor="middle" font-size="36" style="fill:#86868B">to read.</text></g>
+  <g class="in" style="animation-delay:610ms"><text class="hd" x="970" y="408" text-anchor="middle" font-size="128" font-weight="600" letter-spacing="-3">0<tspan font-size="46" letter-spacing="0" dx="6">ms</tspan></text>
+    <text class="hd" x="970" y="476" text-anchor="middle" font-size="36" style="fill:#86868B">to wait.</text></g>
+
+</svg>

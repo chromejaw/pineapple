@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">42 of 42 checks passed with Pineapple. Without it, 33.</title>
+  <desc id="d">Test results: with Pineapple, 42 of 42 automated checks passed across three real tasks. Without it, 33.</desc>
+  <style>
+    .hd { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; }
+    .tx { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .g  { fill: #86868B; }
+    .in { animation: in 900ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    @keyframes in { from { opacity: 0; transform: translateY(16px); } }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="675" rx="28" fill="#000"/>
+  <text class="hd in" x="600" y="380" text-anchor="middle" font-size="230" font-weight="700" letter-spacing="-8">42/42</text>
+  <text class="hd in" x="600" y="470" text-anchor="middle" font-size="38" style="animation-delay:250ms">checks passed with Pineapple.</text>
+  <text class="hd in" x="600" y="528" text-anchor="middle" font-size="32" style="fill:#86868B;animation-delay:450ms">Without it: 33.</text>
+</svg>

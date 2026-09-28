@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">Ask an AI for premium. You get the same card, every time.</title>
+  <desc id="d">Six pricing cards named Pro Plan, Premium, Plus, Pro, Ultra and Max, all identical: dark indigo, purple glow, gradient text, an icon tile, a gradient button.</desc>
+  <style>
+    .hd { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; }
+    .tx { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .g  { fill: #86868B; }
+    .in { animation: in 900ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    @keyframes in { from { opacity: 0; transform: translateY(16px); } }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="675" rx="28" fill="#000"/>
+  <defs>
+    <linearGradient id="gb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+    <linearGradient id="gx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C084FC"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  </defs>
+  <text class="hd in" x="600" y="118" text-anchor="middle" font-size="60" font-weight="600" letter-spacing="-1.2">Ask an AI for “premium.”</text>
+  <text class="tx g in" x="600" y="176" text-anchor="middle" font-size="32" style="animation-delay:150ms">You get the same card. Every time.</text>
+  <ellipse cx="600" cy="440" rx="420" ry="190" fill="#7C3AED" opacity="0.35" filter="url(#glow)" class="in" style="animation-delay:400ms"/>
+  <g class="in" style="animation-delay:500ms">
+    <rect x="250" y="250" width="200" height="176" rx="20" fill="#120E24" stroke="url(#gb)" stroke-width="1.5"/>
+    <rect x="270" y="270" width="34" height="34" rx="9" fill="url(#gt)"/>
+    <path d="M289,276 l-8,12 h6 l-2,9 l9,-13 h-6 z" fill="#fff"/>
+    <text class="tx" x="270" y="338" font-size="24" font-weight="800" fill="url(#gx)">Pro Plan</text>
+    <text class="tx" x="270" y="374" font-size="26" font-weight="800" fill="#fff">$8<tspan font-size="14" fill="#8B8FA3">/mo</tspan></text>
+    <rect x="270" y="390" width="160" height="22" rx="11" fill="url(#gt)"/>
+  </g>
+  <g class="in" style="animation-delay:610ms">
+    <rect x="500" y="250" width="200" height="176" rx="20" fill="#120E24" stroke="url(#gb)" stroke-width="1.5"/>
+    <rect x="520" y="270" width="34" height="34" rx="9" fill="url(#gt)"/>
+    <path d="M539,276 l-8,12 h6 l-2,9 l9,-13 h-6 z" fill="#fff"/>
+    <text class="tx" x="520" y="338" font-size="24" font-weight="800" fill="url(#gx)">Premium</text>
+    <text class="tx" x="520" y="374" font-size="26" font-weight="800" fill="#fff">$8<tspan font-size="14" fill="#8B8FA3">/mo</tspan></text>
+    <rect x="520" y="390" width="160" height="22" rx="11" fill="url(#gt)"/>
+  </g>
+  <g class="in" style="animation-delay:720ms">
+    <rect x="750" y="250" width="200" height="176" rx="20" fill="#120E24" stroke="url(#gb)" stroke-width="1.5"/>
+    <rect x="770" y="270" width="34" height="34" rx="9" fill="url(#gt)"/>
+    <path d="M789,276 l-8,12 h6 l-2,9 l9,-13 h-6 z" fill="#fff"/>
+    <text class="tx" x="770" y="338" font-size="24" font-weight="800" fill="url(#gx)">Plus</text>
+    <text class="tx" x="770" y="374" font-size="26" font-weight="800" fill="#fff">$8<tspan font-size="14" fill="#8B8FA3">/mo</tspan></text>
+    <rect x="770" y="390" width="160" height="22" rx="11" fill="url(#gt)"/>
+  </g>
+  <g class="in" style="animation-delay:830ms">
+    <rect x="250" y="456" width="200" height="176" rx="20" fill="#120E24" stroke="url(#gb)" stroke-width="1.5"/>
+    <rect x="270" y="476" width="34" height="34" rx="9" fill="url(#gt)"/>
+    <path d="M289,482 l-8,12 h6 l-2,9 l9,-13 h-6 z" fill="#fff"/>
+    <text class="tx" x="270" y="544" font-size="24" font-weight="800" fill="url(#gx)">Pro</text>
+    <text class="tx" x="270" y="580" font-size="26" font-weight="800" fill="#fff">$8<tspan font-size="14" fill="#8B8FA3">/mo</tspan></text>
+    <rect x="270" y="596" width="160" height="22" rx="11" fill="url(#gt)"/>
+  </g>
+  <g class="in" style="animation-delay:940ms">
+    <rect x="500" y="456" width="200" height="176" rx="20" fill="#120E24" stroke="url(#gb)" stroke-width="1.5"/>
+    <rect x="520" y="476" width="34" height="34" rx="9" fill="url(#gt)"/>
+    <path d="M539,482 l-8,12 h6 l-2,9 l9,-13 h-6 z" fill="#fff"/>
+    <text class="tx" x="520" y="544" font-size="24" font-weight="800" fill="url(#gx)">Ultra</text>
+    <text class="tx" x="520" y="580" font-size="26" font-weight="800" fill="#fff">$8<tspan font-size="14" fill="#8B8FA3">/mo</tspan></text>
+    <rect x="520" y="596" width="160" height="22" rx="11" fill="url(#gt)"/>
+  </g>
+  <g class="in" style="animation-delay:1050ms">
+    <rect x="750" y="456" width="200" height="176" rx="20" fill="#120E24" stroke="url(#gb)" stroke-width="1.5"/>
+    <rect x="770" y="476" width="34" height="34" rx="9" fill="url(#gt)"/>
+    <path d="M789,482 l-8,12 h6 l-2,9 l9,-13 h-6 z" fill="#fff"/>
+    <text class="tx" x="770" y="544" font-size="24" font-weight="800" fill="url(#gx)">Max</text>
+    <text class="tx" x="770" y="580" font-size="26" font-weight="800" fill="#fff">$8<tspan font-size="14" fill="#8B8FA3">/mo</tspan></text>
+    <rect x="770" y="596" width="160" height="22" rx="11" fill="url(#gt)"/>
+  </g>
+</svg>

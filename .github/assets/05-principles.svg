@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">Eight principles</title>
+  <desc id="d">Apple’s eight design principles: Purpose, Agency, Responsibility, Familiarity, Flexibility, Simplicity, Craft, Delight.</desc>
+  <style>
+    .hd { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; }
+    .tx { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .g  { fill: #86868B; }
+    .in { animation: in 900ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    @keyframes in { from { opacity: 0; transform: translateY(16px); } }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="675" rx="28" fill="#000"/>
+  <text class="hd in" x="600" y="118" text-anchor="middle" font-size="34" style="fill:#86868B">Eight principles. From Apple. For everything.</text>
+  <text class="hd in" x="360" y="244" text-anchor="middle" font-size="58" font-weight="600" letter-spacing="-1.2" style="animation-delay:200ms">Purpose.</text>
+  <text class="hd in" x="360" y="344" text-anchor="middle" font-size="58" font-weight="600" letter-spacing="-1.2" style="animation-delay:340ms">Agency.</text>
+  <text class="hd in" x="360" y="444" text-anchor="middle" font-size="58" font-weight="600" letter-spacing="-1.2" style="animation-delay:480ms">Responsibility.</text>
+  <text class="hd in" x="360" y="544" text-anchor="middle" font-size="58" font-weight="600" letter-spacing="-1.2" style="animation-delay:620ms">Familiarity.</text>
+  <text class="hd in" x="840" y="244" text-anchor="middle" font-size="58" font-weight="600" letter-spacing="-1.2" style="animation-delay:760ms">Flexibility.</text>
+  <text class="hd in" x="840" y="344" text-anchor="middle" font-size="58" font-weight="600" letter-spacing="-1.2" style="animation-delay:900ms">Simplicity.</text>
+  <text class="hd in" x="840" y="444" text-anchor="middle" font-size="58" font-weight="600" letter-spacing="-1.2" style="animation-delay:1040ms">Craft.</text>
+  <text class="hd in" x="840" y="544" text-anchor="middle" font-size="58" font-weight="600" letter-spacing="-1.2" style="animation-delay:1180ms;fill:#0A84FF">Delight.</text>
+
+</svg>

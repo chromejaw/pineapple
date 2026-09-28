@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">One more thing. It’s free and open source.</title>
+  <desc id="d">One more thing: it’s free and open source.</desc>
+  <style>
+    .hd { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; }
+    .tx { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .g  { fill: #86868B; }
+    .in { animation: in 900ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    @keyframes in { from { opacity: 0; transform: translateY(16px); } }
+    
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="675" rx="28" fill="#000"/>
+  <text class="hd in" x="600" y="318" text-anchor="middle" font-size="84" font-weight="600" letter-spacing="-2">One more thing.</text>
+  <text class="hd in" x="600" y="398" text-anchor="middle" font-size="38" style="fill:#86868B;animation-delay:1400ms">It’s free and open source.</text>
+</svg>

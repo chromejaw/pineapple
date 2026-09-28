@@ -5,8 +5,10 @@
     .hd { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; }
     .tx { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     .g  { fill: #86868B; }
-    .in { animation: in 900ms cubic-bezier(0.23, 1, 0.32, 1) both; }
+    .in { animation: loop 9000ms cubic-bezier(0.23, 1, 0.32, 1) infinite both; }
     @keyframes in { from { opacity: 0; transform: translateY(16px); } }
+    /* README images all start on page load, so every slide loops, resting on its finished state most of the time. */
+    @keyframes loop { 0% { opacity: 0; transform: translateY(16px); } 10%, 90% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: none; } }
     .icon { transform-box: fill-box; transform-origin: 50% 60%; animation: rise 1100ms cubic-bezier(0.23, 1, 0.32, 1) both; }
     .leaf { transform-origin: 0 0; animation: sprout 900ms cubic-bezier(0.32, 0.72, 0, 1) both; }
     .shine { opacity: 0; animation: shine 1500ms cubic-bezier(0.45, 0, 0.2, 1) 1000ms both; }

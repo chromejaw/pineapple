@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">It doesn’t just design</title>
+  <desc id="d">It doesn’t just design. It builds the UI, reviews your screens, fixes accessibility, writes the design tokens, hardens the edge cases, and calls out dark patterns. Forms, dashboards, checkout, onboarding, motion, dark mode, design systems.</desc>
+  <style>
+    .hd { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: #F5F5F7; }
+    .tx { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .g  { fill: #86868B; }
+    .in { animation: loop 9000ms cubic-bezier(0.23, 1, 0.32, 1) infinite both; }
+    @keyframes in { from { opacity: 0; transform: translateY(16px); } }
+    /* README images all start on page load, so every slide loops, resting on its finished state most of the time. */
+    @keyframes loop { 0% { opacity: 0; transform: translateY(16px); } 10%, 90% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: none; } }
+    .cy { opacity: 0; animation: cy 12000ms cubic-bezier(0.23, 1, 0.32, 1) infinite both; }
+    @keyframes cy { 0% { opacity: 0; transform: translateY(24px); } 3.0%, 14.2% { opacity: 1; transform: none; } 16.7%, 100% { opacity: 0; transform: translateY(-24px); } }
+    .static { display: none; }
+    @media (prefers-reduced-motion: reduce) { .cycle { display: none; } .static { display: inline; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect width="1200" height="675" rx="28" fill="#000"/>
+  <text class="hd" x="600" y="220" text-anchor="middle" font-size="36" style="fill:#86868B">It doesn’t just design. It…</text>
+  <g class="cycle">
+  <text class="hd cy" x="600" y="370" text-anchor="middle" font-size="76" font-weight="600" letter-spacing="-1.8" style="animation-delay:0ms">Builds the UI.</text>
+  <text class="hd cy" x="600" y="370" text-anchor="middle" font-size="76" font-weight="600" letter-spacing="-1.8" style="animation-delay:2000ms">Reviews your screens.</text>
+  <text class="hd cy" x="600" y="370" text-anchor="middle" font-size="76" font-weight="600" letter-spacing="-1.8" style="animation-delay:4000ms">Fixes accessibility.</text>
+  <text class="hd cy" x="600" y="370" text-anchor="middle" font-size="76" font-weight="600" letter-spacing="-1.8" style="animation-delay:6000ms">Writes the design tokens.</text>
+  <text class="hd cy" x="600" y="370" text-anchor="middle" font-size="76" font-weight="600" letter-spacing="-1.8" style="animation-delay:8000ms">Hardens the edge cases.</text>
+  <text class="hd cy" x="600" y="370" text-anchor="middle" font-size="76" font-weight="600" letter-spacing="-1.8" style="animation-delay:10000ms">Calls out dark patterns.</text>
+  </g>
+  <g class="static">
+  <text class="hd" x="600" y="278" text-anchor="middle" font-size="36" font-weight="600">Builds the UI.</text>
+  <text class="hd" x="600" y="320" text-anchor="middle" font-size="36" font-weight="600">Reviews your screens.</text>
+  <text class="hd" x="600" y="362" text-anchor="middle" font-size="36" font-weight="600">Fixes accessibility.</text>
+  <text class="hd" x="600" y="404" text-anchor="middle" font-size="36" font-weight="600">Writes the design tokens.</text>
+  <text class="hd" x="600" y="446" text-anchor="middle" font-size="36" font-weight="600">Hardens the edge cases.</text>
+  <text class="hd" x="600" y="488" text-anchor="middle" font-size="36" font-weight="600">Calls out dark patterns.</text>
+  </g>
+  <text class="hd" x="600" y="560" text-anchor="middle" font-size="24" style="fill:#86868B">Forms · Dashboards · Checkout · Onboarding · Motion · Dark mode · Design systems</text>
+</svg>

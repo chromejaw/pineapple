@@ -15,20 +15,24 @@
 </p>
 
 <p align="center">
-  <img alt="Every value has a reason. 44 points to tap. 4.5 to 1 to read. 0 milliseconds to wait." src=".github/assets/04-numbers.svg" width="100%">
+  <img alt="It doesn’t just design. It builds the UI, reviews your screens, fixes accessibility, writes the design tokens, hardens the edge cases, and calls out dark patterns. Forms, dashboards, checkout, onboarding, motion, dark mode, design systems." src=".github/assets/04-beyond-design.svg" width="100%">
 </p>
 
 <p align="center">
-  <img alt="Eight principles: Purpose, Agency, Responsibility, Familiarity, Flexibility, Simplicity, Craft, Delight." src=".github/assets/05-principles.svg" width="100%">
+  <img alt="Every value has a reason. 44 points to tap. 4.5 to 1 to read. 0 milliseconds to wait." src=".github/assets/05-numbers.svg" width="100%">
 </p>
 
 <p align="center">
-  <img alt="42 of 42 automated checks passed with Pineapple. Without it, 33." src=".github/assets/06-results.svg" width="100%">
+  <img alt="Eight principles: Purpose, Agency, Responsibility, Familiarity, Flexibility, Simplicity, Craft, Delight." src=".github/assets/06-principles.svg" width="100%">
+</p>
+
+<p align="center">
+  <img alt="42 of 42 automated checks passed with Pineapple. Without it, 33." src=".github/assets/07-results.svg" width="100%">
   <br><sub>Three real tasks, one run each, on the previous version. A strong signal, not a benchmark. Tests in <a href="evals">evals</a>.</sub>
 </p>
 
 <p align="center">
-  <img alt="One more thing. It’s free and open source." src=".github/assets/07-one-more-thing.svg" width="100%">
+  <img alt="One more thing. It’s free and open source." src=".github/assets/08-one-more-thing.svg" width="100%">
 </p>
 
 ## Install

@@ -39,13 +39,6 @@ npx skills add chromejaw/pineapple
 
 <sub>Works with Claude Code, Codex, Cursor, and 70+ other agents. Add <code>-g</code> to install for all your projects.</sub>
 
-**Claude Code plugin**, with updates:
-
-```
-/plugin marketplace add chromejaw/pineapple
-/plugin install pineapple@pineapple
-```
-
 <br>
 
 <p align="center">

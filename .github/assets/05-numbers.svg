@@ -10,6 +10,7 @@
     /* README images all start on page load, so every slide loops, resting on its finished state most of the time. */
     @keyframes loop { 0% { opacity: 0; transform: translateY(16px); } 10%, 90% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: none; } }
     
+    .in { animation: none; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
   <rect width="1200" height="675" rx="28" fill="#000"/>

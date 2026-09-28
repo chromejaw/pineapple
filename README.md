@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img alt="One pricing card fixes itself. The purple glow, gradient text, icon tile, emoji, and vague terms become one blue action color, the full price, plain trial terms, and a button that says Start free trial." src=".github/assets/03-fix.svg" width="100%">
+  <img alt="Same prompt, “Build a sign-up screen,” shown with a before-and-after slider. Without Pineapple: purple glow, emoji, placeholder-only fields, a pre-checked marketing box, and a “No thanks, I don’t like free stuff” link. With Pineapple: labeled fields, a password hint, an unchecked opt-in, and a clear “Create account” button." src=".github/assets/03-compare.svg" width="100%">
 </p>
 
 <p align="center">

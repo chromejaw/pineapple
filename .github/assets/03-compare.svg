@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d">
+  <title id="t">Same prompt, build a sign-up screen. Without and with Pineapple.</title>
+  <desc id="d">A before-and-after slider across one phone sign-up screen made from the same prompt. Without Pineapple: purple glow, gradient “Welcome!” with emoji, fields with placeholder text instead of labels, a pre-checked marketing box, a faded “Get Started” button, a guilt-trip “No thanks, I don’t like free stuff” link, and tiny fine print. With Pineapple: a plain “Create account” title, labeled fields, a password hint and Show button, an unchecked opt-in, a clear “Create account” button, and a sign-in link.</desc>
+  <defs>
+    <linearGradient id="gt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+    <linearGradient id="gx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C084FC"/><stop offset="0.55" stop-color="#818CF8"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="50"/></filter>
+    <filter id="knob" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.45"/></filter>
+    <clipPath id="screen"><rect x="414" y="42" width="372" height="592" rx="44"/></clipPath>
+  </defs>
+  <style>
+    /* Resting state: divider in the middle. Plays once: all "without" → all "with" → middle. */
+    .ai  { clip-path: inset(0 50% 0 0) view-box; animation: ai 5600ms cubic-bezier(0.45, 0, 0.2, 1) 700ms both; }
+    .pp  { clip-path: inset(0 0 0 50%) view-box; animation: pp 5600ms cubic-bezier(0.45, 0, 0.2, 1) 700ms both; }
+    .bar { animation: bar 5600ms cubic-bezier(0.45, 0, 0.2, 1) 700ms both; }
+    @keyframes ai  { 0%, 14% { clip-path: inset(0 33% 0 0) view-box; } 50%, 62% { clip-path: inset(0 67% 0 0) view-box; } 100% { clip-path: inset(0 50% 0 0) view-box; } }
+    @keyframes pp  { 0%, 14% { clip-path: inset(0 0 0 67%) view-box; } 50%, 62% { clip-path: inset(0 0 0 33%) view-box; } 100% { clip-path: inset(0 0 0 50%) view-box; } }
+    @keyframes bar { 0%, 14% { transform: translateX(204px); } 50%, 62% { transform: translateX(-204px); } 100% { transform: translateX(0); } }
+    @media (prefers-reduced-motion: reduce) { .ai, .pp, .bar { animation: none; } }
+  </style>
+  <rect width="1200" height="675" rx="28" fill="#000"/>
+  <rect x="402" y="30" width="396" height="616" rx="56" fill="#1C1C1E" stroke="#3A3A3C" stroke-width="1.5"/>
+  <g clip-path="url(#screen)">
+    <g class="ai">
+    <rect x="414" y="42" width="372" height="592" fill="#0E0B1F"/>
+    <ellipse cx="600" cy="102" rx="260" ry="170" fill="#7C3AED" opacity="0.6" filter="url(#glow)"/>
+    <g font-family="'SF Pro Text', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <text x="442" y="78" font-size="15" font-weight="600" fill="#fff">9:41</text>
+      <text x="442" y="170" font-size="38" font-weight="800" fill="url(#gx)">Welcome! 👋</text>
+      <text x="442" y="202" font-size="16" fill="#8B8FA3">Join thousands of happy users ✨</text>
+      <rect x="442" y="234" width="316" height="54" rx="14" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="460" y="267" font-size="17" fill="#55586E">Email</text>
+      <rect x="442" y="300" width="316" height="54" rx="14" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <text x="460" y="333" font-size="17" fill="#55586E">Password</text>
+      <rect x="442" y="376" width="22" height="22" rx="6" fill="url(#gt)"/>
+      <path d="M447,387 l4,4 l8,-9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="476" y="393" font-size="15" fill="#8B8FA3">Send me marketing emails &amp; offers</text>
+      <rect x="442" y="424" width="316" height="56" rx="28" fill="url(#gt)" opacity="0.55"/>
+      <text x="600" y="459" font-size="19" font-weight="600" fill="#fff" fill-opacity="0.7" text-anchor="middle">Get Started 🚀</text>
+      <text x="600" y="518" font-size="15" fill="#6B6F85" text-anchor="middle" text-decoration="underline">No thanks, I don’t like free stuff</text>
+      <text x="600" y="608" font-size="11" fill="#45485C" text-anchor="middle">By continuing you agree to everything.</text>
+    </g>
+    </g>
+    <g class="pp">
+    <rect x="414" y="42" width="372" height="592" fill="#FFFFFF"/>
+    <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+      <text x="442" y="78" font-size="15" font-weight="600" fill="#1D1D1F">9:41</text>
+      <text x="442" y="166" font-size="34" font-weight="700" letter-spacing="-0.6" fill="#1D1D1F">Create account</text>
+      <text x="442" y="198" font-size="17" fill="#6E6E73">It takes less than a minute.</text>
+      <text x="442" y="240" font-size="15" font-weight="600" fill="#1D1D1F">Email</text>
+      <rect x="442" y="250" width="316" height="50" rx="12" fill="#FFFFFF" stroke="#8E8E93" stroke-width="1.2"/>
+      <text x="458" y="281" font-size="17" fill="#1D1D1F">ana@example.com</text>
+      <text x="442" y="326" font-size="15" font-weight="600" fill="#1D1D1F">Password</text>
+      <rect x="442" y="336" width="316" height="50" rx="12" fill="#FFFFFF" stroke="#1E6EF4" stroke-width="2.4"/>
+      <text x="458" y="368" font-size="17" letter-spacing="2" fill="#1D1D1F">••••••••••</text>
+      <text x="742" y="367" font-size="15" font-weight="600" fill="#1A66E0" text-anchor="end">Show</text>
+      <text x="442" y="408" font-size="14" fill="#6E6E73">At least 8 characters.</text>
+      <rect x="442" y="428" width="22" height="22" rx="6" fill="#FFFFFF" stroke="#8E8E93" stroke-width="1.5"/>
+      <text x="476" y="445" font-size="16" fill="#1D1D1F">Email me product news</text>
+      <rect x="442" y="472" width="316" height="54" rx="27" fill="#1E6EF4"/>
+      <text x="600" y="506" font-size="19" font-weight="600" fill="#FFFFFF" text-anchor="middle">Create account</text>
+      <text x="600" y="564" font-size="16" fill="#6E6E73" text-anchor="middle">Already have an account? <tspan fill="#1A66E0" font-weight="600">Sign in</tspan></text>
+      <text x="600" y="608" font-size="12" fill="#6E6E73" text-anchor="middle">By creating an account, you agree to the Terms.</text>
+    </g>
+    </g>
+  </g>
+  <g class="bar">
+    <line x1="600" y1="42" x2="600" y2="634" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="600" cy="338.0" r="24" fill="#FFFFFF" filter="url(#knob)"/>
+    <path d="M592,330.0 l-8,8 l8,8 M608,330.0 l8,8 l-8,8" fill="none" stroke="#1D1D1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="360" y="330" font-size="36" font-weight="600" fill="#F5F5F7" text-anchor="end">Without</text>
+    <text x="360" y="370" font-size="22" fill="#86868B" text-anchor="end">the same prompt,</text>
+    <text x="360" y="400" font-size="22" fill="#86868B" text-anchor="end">“Build a sign-up screen.”</text>
+    <text x="840" y="330" font-size="36" font-weight="600" fill="#F5F5F7">With Pineapple</text>
+    <text x="840" y="370" font-size="22" fill="#86868B">Labels, honest defaults,</text>
+    <text x="840" y="400" font-size="22" fill="#86868B">and a button that says</text>
+    <text x="840" y="430" font-size="22" fill="#86868B">what it does.</text>
+  </g>
+</svg>

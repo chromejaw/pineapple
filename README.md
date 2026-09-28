@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="#install"><strong>Install&nbsp;›</strong></a>&emsp;&emsp;<a href="SKILL.md">Read the skill&nbsp;›</a>
+  <a href="#install"><strong>Install&nbsp;›</strong></a>&emsp;&emsp;<a href="skills/pineapple/SKILL.md">Read the skill&nbsp;›</a>
 </p>
 
 <p align="center">
@@ -34,14 +34,21 @@
 ## Install
 
 ```bash
-git clone https://github.com/chromejaw/pineapple ~/.claude/skills/pineapple
+npx skills add chromejaw/pineapple
 ```
 
-<sub>Codex: clone into <code>~/.agents/skills/pineapple</code>. Any other agent: point it at <code>SKILL.md</code>. Then just ask for design work.</sub>
+<sub>Works with Claude Code, Codex, Cursor, and 70+ other agents. Add <code>-g</code> to install for all your projects.</sub>
+
+**Claude Code plugin**, with updates:
+
+```
+/plugin marketplace add chromejaw/pineapple
+/plugin install pineapple@pineapple
+```
 
 <br>
 
 <p align="center">
-  <sub>MIT licensed. Apple material quoted in <code>references/</code> remains Apple’s (<a href="NOTICE">NOTICE</a>).<br>
+  <sub>MIT licensed. Apple material quoted in <code>skills/pineapple/references/</code> remains Apple’s (<a href="NOTICE">NOTICE</a>).<br>
   Not affiliated with Apple Inc. Apple is a trademark of Apple Inc., registered in the U.S. and other countries.</sub>
 </p>
